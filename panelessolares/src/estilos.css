@@ -2,22 +2,4 @@
     margin: 0;
     padding: 0;
 }
-ul, li, a{
-    list-style: none;
-    text-decoration: none;
-}
-.nav{
-    
-    display: flex;
-    justify-content: space-around;
-
-}
-.nav li ul{
-    display: none;
-    position: absolute;
-    min-width: 140px;
-}
-.nav li:hover > ul {
-    display: block;
-}
 
